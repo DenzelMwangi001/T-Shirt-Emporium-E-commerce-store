@@ -32,22 +32,36 @@ This ia a  simple React e-commerce interface that allows users to:
 
 ### 1. Clone the repo
 1. on top of the github click the button Fork this will create a copy for you
+   
 2. copy the text it brings something similar to this => ```https.github.com:Your-username/T-Shirt-Emporium-E-commerce-store.git```
+   
 3. in your terminal either in vscode or the one for your pc log the following ```git clone https.github.com:Your-username/T-Shirt-Emporium-E-commerce-store.git```
-   ###NOTE
+
+   
+   ##NOTE
    As the  T-shirt folder might be nested inside the T-shirt folder make sure to switch the path to appropriate path :
     example => ```/Desktop/T-Shirt-Emporium-E-commerce-store/T-shirt E-commerce store$ ```
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 ### INSTALLATION 
+
+
 -Firstly you should install the npm dependency on the terminal paste this command :
 ``npm install``
+
+
 -secondly install the react-dom throught the following command :
 ```npm install react-router-dom```
+
+
 -Thirdly install react icon throught the following command:
 ```npm install react-icons```
+
+
 -Foutrhly running the server :
 ```json-server --watch db.json```
+
+
 -Fifthly running the application :
 ```npm run dev```
 
