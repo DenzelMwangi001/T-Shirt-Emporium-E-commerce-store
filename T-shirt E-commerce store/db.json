@@ -74,6 +74,13 @@
       "price": 2500,
       "category": "jewelery",
       "image": "https://www.jiomart.com/images/product/original/rvsm2smyef/ratnavali-jewels-american-diamond-gold-plated-traditional-fashion-jewellery-necklace-set-with-earring-for-women-and-girls-product-images-rvsm2smyef-1-202211150945.jpg?im=Resize=(420,420)"
+    },
+    {
+      "id": "a21b",
+      "name": "Reebok",
+      "price": 2300,
+      "category": "Sneakers",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHQb4HIFbk32cptYcCU_VydMkvHevQvzPEkg&s"
     }
   ]
 }

@@ -1,16 +1,22 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
 import { useCart } from '../context/CartContext';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const { cartItems, toggleCart } = useCart();
   const itemCount = cartItems.length;
 
   return (
-    <nav>
+    <nav className="navbar">
       <div className="container">
         <h1>WOOLWORTHS.</h1>
         <div>
+        
+          <Link to="/">Home</Link>
+          <Link to="/products">Shop</Link>
+      
+
           <button 
             className="cart-button"
             onClick={toggleCart}

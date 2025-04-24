@@ -1,12 +1,10 @@
-
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { useCart } from './context/CartContext';  
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
-import ProductList from './components/ProductList';
 import CartPanel from './components/CartPanel';
-import Home from './pages/Home';  
+import AppRoutes from './routes';
 import './styles/styles.css';
 
 const App = () => {
@@ -14,7 +12,7 @@ const App = () => {
   const [sortOrder, setSortOrder] = useState('lowToHigh');
   const [filterCategory, setFilterCategory] = useState('');
 
-  const { isCartVisible, toggleCart } = useCart();  // Get CartContext state
+  const { isCartVisible } = useCart();  // Get CartContext state
 
   useEffect(() => {
     const fetchData = async () => {
@@ -49,14 +47,9 @@ const App = () => {
     <Router>
       <div>
         <Navbar />
-        <div>
+        <div className="flex">
           <Sidebar setSortOrder={setSortOrder} setFilterCategory={setFilterCategory} />
-          <div>
-            <Routes>
-              <Route path="/" element={<Home />} />
-            </Routes>
-            <ProductList products={filteredAndSortedProducts} />
-          </div>
+          <AppRoutes products={filteredAndSortedProducts} />
           <CartPanel isVisible={isCartVisible} />
         </div>
       </div>
