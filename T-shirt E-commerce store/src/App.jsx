@@ -1,12 +1,12 @@
-// src/App.jsx
+
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { useCart } from './context/CartContext';  // Import CartContext
+import { useCart } from './context/CartContext';  
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import ProductList from './components/ProductList';
 import CartPanel from './components/CartPanel';
-import Home from './pages/Home';  // Assuming Home page exists
+import Home from './pages/Home';  
 import './styles/styles.css';
 
 const App = () => {
@@ -47,11 +47,11 @@ const App = () => {
 
   return (
     <Router>
-      <div className="flex flex-col h-screen">
+      <div>
         <Navbar />
-        <div className="flex flex-1">
+        <div>
           <Sidebar setSortOrder={setSortOrder} setFilterCategory={setFilterCategory} />
-          <div className="flex-1 overflow-y-auto">
+          <div>
             <Routes>
               <Route path="/" element={<Home />} />
             </Routes>

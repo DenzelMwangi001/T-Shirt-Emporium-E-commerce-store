@@ -79,7 +79,7 @@ const ProductList = () => {
       .catch((err) => alert('Error adding product: ' + err.message));
   };
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div className='spinner'></div>;
   if (error) return <div>Error: {error}</div>;
 
   return (

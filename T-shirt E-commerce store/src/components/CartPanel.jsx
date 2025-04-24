@@ -38,7 +38,7 @@ const CartPanel = () => {
 
   return (
     <div
-      className={`cart-panel fixed top-0 right-0 h-full bg-white shadow-lg transition-transform duration-300 ease-in-out ${
+      className={`cart-panel  ${
         isCartVisible ? 'translate-x-0' : 'translate-x-full'
       } w-80 z-50 p-4`}
     >
@@ -60,7 +60,7 @@ const CartPanel = () => {
             {cartItems.map((item) => (
               <li key={item.id} className="cart-item">
                 <div className="controls">
-                  <img src={item.image} alt={item.title} className="w-16 h-16 object-cover" />
+                  <img src={item.image} alt={item.title}  />
                   <div className="info">
                     <p className="font-medium">{item.title}</p>
                     <p className="price">Price: ksh{item.price}</p>
@@ -70,14 +70,14 @@ const CartPanel = () => {
 
                     <div className="controls">
                       <button
-                        className="px-2 py-1 bg-gray-200 rounded"
+                        
                         onClick={() => decreaseQuantity(item.id)}
                       >
                         -
                       </button>
                       <span>{item.quantity}</span>
                       <button
-                        className="px-2 py-1 bg-gray-200 rounded"
+                       
                         onClick={() => increaseQuantity(item.id)}
                       >
                         +
@@ -96,13 +96,13 @@ const CartPanel = () => {
             ))}
           </ul>
 
-          <div className="mt-6 border-t pt-4 text-right">
-            <p className="font-bold text-lg">Total: ksh{getTotal()}</p>
+          <div>
+            <p>Total: ksh{getTotal()}</p>
           </div>
 
           {/* Checkout Button */}
           <button
-            className="checkout-button mt-4 p-2 bg-green-500 text-white rounded w-full"
+            className="checkout-button "
             onClick={handleCheckout}
           >
             Checkout

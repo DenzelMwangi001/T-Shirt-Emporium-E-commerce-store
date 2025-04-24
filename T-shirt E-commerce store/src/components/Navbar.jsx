@@ -7,12 +7,12 @@ const Navbar = () => {
   const itemCount = cartItems.length;
 
   return (
-    <nav className="bg-blue-600 text-white p-4">
-      <div className="container flex justify-between items-center">
+    <nav>
+      <div className="container">
         <h1>WOOLWORTHS.</h1>
         <div>
           <button 
-            className="text-white text-xl relative cart-button"
+            className="cart-button"
             onClick={toggleCart}
           >
             <FiShoppingCart />
