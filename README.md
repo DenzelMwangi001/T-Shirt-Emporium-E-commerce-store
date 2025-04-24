@@ -39,7 +39,7 @@ This ia a  simple React e-commerce interface that allows users to:
 
 ### NOTE
 
-As the  T-shirt folder might be nested inside the T-shirt folder make sure to switch the path to appropriate path :
+As the  T-shirt folder might be nested inside the T-Shirt-Emporium-E-commerce-store  folder make sure to switch the path to appropriate path :
     
    ** example =>**  ```/Desktop/T-Shirt-Emporium-E-commerce-store/T-shirt E-commerce store$ ```
 
