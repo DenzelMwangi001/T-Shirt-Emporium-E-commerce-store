@@ -1,5 +1,6 @@
 # T-Shirt-Emporium-E-Commerce-Store
 -----------------------FUNCTIONALITY------------------------------
+
 This ia a  simple React e-commerce interface that allows users to:
 - View products
 - Sort by price
