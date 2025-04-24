@@ -37,7 +37,8 @@ This ia a  simple React e-commerce interface that allows users to:
    
 3. in your terminal either in vscode or the one for your pc log the following ```git clone https.github.com:Your-username/T-Shirt-Emporium-E-commerce-store.git```
 
-##NOTE
+### NOTE
+
 As the  T-shirt folder might be nested inside the T-shirt folder make sure to switch the path to appropriate path :
     
    ** example =>**  ```/Desktop/T-Shirt-Emporium-E-commerce-store/T-shirt E-commerce store$ ```
