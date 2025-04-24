@@ -83,7 +83,7 @@ const ProductList = () => {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div className="flex">
+    <div>
       <Sidebar setSortOrder={setSortOrder} setFilterCategory={setFilterCategory} />
 
       <div className="add-product-form">
