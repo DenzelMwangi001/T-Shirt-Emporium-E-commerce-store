@@ -83,7 +83,9 @@ As the  T-shirt folder might be nested inside the T-Shirt-Emporium-E-commerce-st
 
 
 
-![Screenshot from 2025-04-24 16-12-20](https://github.com/user-attachments/assets/f99aeca8-28fb-4576-a4cd-235c52805541)
+
+![image](https://github.com/user-attachments/assets/75593e4c-49e0-4032-a787-c31018de0d7e)
+
 
 ----------------------------VISUALS AND INTERACTIVITY-------------------------------------------------------
 - in the page you can add prooduct by entering the data in the form ,which will display in the product list after submisson 
