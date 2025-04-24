@@ -67,7 +67,7 @@ This ia a  simple React e-commerce interface that allows users to:
 
 ----------------------IMAGES-------------------------------------------------------
 ### WHAT YOU WILL SEE
-- after all teh above process in succesfull, you will see a screen like this :
+- After all the above process is succesfull, you will see a screen like this :
 - 
 
 
