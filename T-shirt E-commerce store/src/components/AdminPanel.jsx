@@ -72,7 +72,7 @@ const AdminPanel = () => {
         >
           <option value="">Select Category</option>
           <option value="jewelery">Jewelry</option>
-          <option value="sneakers">Sneakers</option>
+          <option value="Sneakers">Sneakers</option>
           <option value="womens clothing">Women's Clothing</option>
           <option value="mens clothing">Men's Clothing</option>
         </select>
