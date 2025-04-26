@@ -14,10 +14,12 @@ const Navbar = () => {
         <div>
         
           <Link to="/">Home</Link>
+          <Link to="/admin">Admin</Link>
           <Link to="/products">Shop</Link>
+          
+          
       
-
-          <button 
+         <button 
             className="cart-button"
             onClick={toggleCart}
           >

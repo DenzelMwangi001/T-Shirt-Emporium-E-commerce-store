@@ -25,6 +25,53 @@ body {
   color: #333;
   line-height: 2.3;
 }
+.admin-panel {
+  
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #05fa05;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-form input,
+.admin-form select,
+.admin-form button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+
+
 .pageitem{
   margin-left: 290px;
 }  
@@ -162,7 +209,8 @@ transition: color 0.3s ease;
 }
 
 .cart-button:hover {
-color: #0077cc;
+color: #f7f7fa;
+background-color: #fff;
 }
 
 /* Cart item count badge */
@@ -207,14 +255,15 @@ top: 20px;
 right: 20px;
 font-size: 28px;
 color: #555;
-background: none;
-border: none;
+background-color: #fff;
+border: 1px solid #ddd;
 cursor: pointer;
 transition: color 0.3s ease;
 }
 
 .cart-panel button.close-cart:hover {
 color: #e74c3c; /* Red on hover */
+background-color: #fff;
 }
 
 /* Cart Header */
